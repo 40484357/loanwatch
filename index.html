@@ -4,20 +4,34 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="header_menu">
-    <div class="arsenal_badge">
-        <a href="index.html" class="arsenal_brand" title="home" rel="home">
-            <img src="https://www.arsenal.com/themes/custom/arsenal_main/logo.svg" alt="Home">
-        </a>
-    </div>
-    <nav class="navigation">
-        <ul class="nav_menu">
-            <li class="menu_item" id="nav_news">News</li>
-            <li class="menu_item" id="nav_players">Players</li>
-            <li class="menu_item" id="nav_fixtures">Fixtures</li>
-            <li class="menu_item" id="nav_loanreport">Loan Report</li>
-            <li class ="menu_item" id="nav_about">About</li>
-        </ul>
-    </nav>
-</div>
+    <header class="site_header">
+        <div class="header_inner">
+            <div class="badge_wrapper">
+                <a href="index.html" class="header_badge" title="Home" rel="home">
+                    <img src="https://www.arsenal.com/themes/custom/arsenal_main/logo.svg" alt="Arsenal Badge">
+                </a>
+            </div>
+            <div class="header_menu">
+                <nav role="navigation" class="navigation">
+                    <ul class="nav_main">
+                        <li class="nav_item">
+                          <a href="news.html" class="menu_link"> News </a>  
+                        </li>
+                        <li class="nav_item">
+                            <a href="players.html" class="menu_link">Players</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="fixtures.html" class="menu_link">Fixtures</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="loan_report.html" class="menu_link">Loan Report</a>
+                        </li>
+                        <li class="nav_item" id="about">
+                            <a href="about.html" class="menu_link" >About</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
 </body>
