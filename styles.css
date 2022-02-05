@@ -1,0 +1,18 @@
+.nav_menu{
+    background-color: #F00000;
+}
+
+.menu_item {
+    float: left;
+    display: block;
+    padding: 8px;
+    background-color: #F00000;
+}
+
+.arsenal_badge{
+    position: absolute;
+    width: 67.8px;
+    height: 79.94px;
+    left: 26.82px;
+    top: 0px;
+}
